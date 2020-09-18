@@ -8,6 +8,7 @@ target 'ecommerceapp' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+
   target 'ecommerceappTests' do
     inherit! :complete
     # Pods for testing
